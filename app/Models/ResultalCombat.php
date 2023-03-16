@@ -11,8 +11,9 @@ class ResultalCombat extends Model
 {
     use HasFactory;
 
-     // public $fillable = ['nom', 'prenom', 'matricule', 'age'];
+     public $fillable = ['nomVainquer', 'nomPerdant', 'sensVerdique', 'etat'];
+
 
    //Deuxieme methode
-   protected $guarded =  [];
+//  protected $guarded =  [];
 }

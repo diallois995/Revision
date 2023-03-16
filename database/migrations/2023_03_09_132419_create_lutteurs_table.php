@@ -20,6 +20,7 @@ return new class extends Migration
             $table->string('lieudeNaiss');
             $table->integer('age');
             $table->string('categorie');
+            $table->integer('etat');
             $table->timestamps();
         });
     }

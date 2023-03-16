@@ -9,4 +9,5 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 class Combat extends Model
 {
     use HasFactory;
+    protected $guarded =  [];
 }

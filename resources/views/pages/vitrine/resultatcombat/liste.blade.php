@@ -3,7 +3,7 @@
 @extends("base", ['titre' => 'Page liste'])
 
 @section('vitrine')
-    <h3> Page Liste bigua woooo</h3>
+    <h3> Bienvenue sur le Resultat Combat - Page Liste</h3>
     {{ $nomObjet->getRevision()}}
 
     {{-- @push('message_js')

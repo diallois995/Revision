@@ -7,10 +7,10 @@ class GetRevision
     public function getRevision()
     {
         if (date('N') >= 6) {
-            echo "m'envoipasl'information le titre";
+            echo "Revision Laravel";
         }else
         {
-            echo "C'est  pour devoir laravel ";
+            echo " m'envoie pas l'information le Revision ";
         }
     }
 

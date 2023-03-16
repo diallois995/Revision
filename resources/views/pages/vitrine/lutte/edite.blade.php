@@ -3,7 +3,7 @@
 @extends("base", ['titre' => 'Page edite'])
 
 @section('vitrine')
-    <h3> Page Edite bigua woooo</h3>
+    <h3> Bienvenue sur le Lutte - Page Edite</h3>
     {{ $nomObjet->getRevision()}}
 
     {{-- @push('message_js')

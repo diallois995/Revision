@@ -4,8 +4,7 @@
 'Page add'])
 
 @section('vitrine')
-    <h1>Bienvenue sur Daaray
- Technologie - Page Add</h1>
+    <h1>Bienvenue sur le Resultat Combat - Page Add</h1>
 
     {{ $nomObjet->getRevision()}}
 {{--

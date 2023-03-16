@@ -17,7 +17,6 @@ return new class extends Migration
             $table->string('nomLuteur1');
             $table->string('nomLuteur2');
             $table->string('nomPromoteur');
-            $table->string('lieudeNaiss');
             $table->string('etat');
             $table->date('date');
             $table->timestamps();
